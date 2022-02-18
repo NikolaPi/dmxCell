@@ -1,5 +1,14 @@
 from DMXEnttecPro import Controller
 
+def calculateTransition(beginValue, endValue, decimalDistance):
+    difference = endValue-beginValue
+    valueDistance = decimalDistance*difference
+    rawChannelValue = beginValue + valueDistance
+
+    #round to nearest int
+    returnValue = round(rawChannelValue)
+    return returnValue
+
 def dmxInit(controllerPort):
     isDummy = True
 
