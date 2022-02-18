@@ -13,7 +13,7 @@ python3 main.py
 Currently, the user must locate the proper COM port without assistance from the software (if dummy mode is disabled)
 
 ## Show Command List:
-p
-n
-quit
-clear
+- p
+- n
+- quit
+- clear
